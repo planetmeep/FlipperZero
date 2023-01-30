@@ -4,7 +4,7 @@ REM Version: 1.0
 REM Target: windows
 DELAY 500
 GUI r
-DELAY 500
+DELAY 1000
 STRING cmd
 ENTER
 DELAY 750
