@@ -1,2 +1,2 @@
 # FlipperZero
-flipperzero repo
+private flipper zero repository
