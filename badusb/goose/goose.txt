@@ -2,6 +2,7 @@ REM Author: planetmeep
 REM Description: downloads and runs desktop goose
 REM Version: 1.0
 REM Target: windows
+DELAY 250
 GUI r
 DELAY 1000
 STRING powershell.exe
