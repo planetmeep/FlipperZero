@@ -1,2 +1,2 @@
 # FlipperZero
-private flipper zero repository
+planetmeep's flipper zero repository
